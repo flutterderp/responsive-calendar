@@ -10,7 +10,7 @@ body { background: #fefefe; color: #333; font-family: 'Source Sans Pro', 'Helvet
 .calendar { font-size: 0; margin: 0 auto 1rem; }
 .week { }
 .days > div, .day { box-sizing: border-box; display: inline-block; font-size: 1rem; position: relative;
-	vertical-align: top; width: calc(100%/7); }
+	vertical-align: top; width: calc(100% / 7); }
 .days > div { background: #f1f1f1; color: #000; font-family: 'Comic Neue', sans-serif; padding: 3px 0;
 	text-align: center; }
 .day { border: 0.0625rem solid #eee; min-height: 6.25rem; }
