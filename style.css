@@ -11,6 +11,7 @@ body { background: #fefefe; color: #333; font-family: 'Source Sans Pro', 'Helvet
 
 .calendar-wrapper header { text-align: center; }
 .calendar { font-size: 0; margin: 0 auto 1rem; }
+.calendar h2 a { display: inline-block; margin: 0 0.625rem; vertical-align: middle; }
 .days, .week { display: table; table-layout: fixed; width: 100%; }
 .days > div, .day { box-sizing: border-box; display: table-cell; font-size: 1rem; position: relative;
 	vertical-align: top; width: calc((100% / 7) - 0.1px); }
@@ -35,6 +36,7 @@ body { background: #fefefe; color: #333; font-family: 'Source Sans Pro', 'Helvet
 	h1 { font-size: 2rem; }
 	.days { display: none; }
 	.day { border-bottom-width: 0; display: block; width: 100%; }
+	.day.collapse { max-height: 0; min-height: 0; }
 	.week { display: block; }
 	.week:last-child .day:last-child { border-bottom-width: 0.0625rem; }
 	.date { left: 0.4375rem; right: auto; }
