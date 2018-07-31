@@ -18,6 +18,8 @@ body { background: #fefefe; color: #333; font-family: 'Source Sans Pro', 'Helvet
 .days > div { background: #f1f1f1; color: #000; padding: 3px 0;
 	text-align: center; }
 .day { border: 0.0625rem solid #eee; min-height: 6.25rem; overflow: auto; }
+.day.current { box-shadow: 0 0 0.4375rem inset rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 0 0.4375rem inset rgba(0,0,0,0.1); }
 
 .date { position: absolute; right: 0.4375rem; top: 0.4375rem;
 	text-align: center; box-sizing: border-box; }
